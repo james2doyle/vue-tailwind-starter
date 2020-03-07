@@ -1,0 +1,29 @@
+{
+  "name": "vue-tailwind-starter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "NODE_ENV=production vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.6",
+    "tailwindcss": "^1.2",
+    "vue": "^2.6",
+    "vue-router": "^3.1"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "@vue/cli-plugin-babel": "^4.2",
+    "@vue/cli-plugin-eslint": "^4.2",
+    "@vue/cli-service": "^4.2",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "cssnano": "^4.1.10",
+    "eslint": "^6.8",
+    "eslint-plugin-vue": "^6.2",
+    "postcss-import": "^12.0.1",
+    "vue-template-compiler": "^2.5.21"
+  }
+}

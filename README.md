@@ -1,0 +1,29 @@
+# Vue + Tailwind Starter
+
+> A boilerplate for starting new Vue projects with Tailwind support
+
+## Included
+
+- [x] Vue (with Router)
+- [x] Tailwind
+- [x] Postcss (purgecss, import, autoprefixer)
+- [x] Babel (with aliases)
+- [x] ESlint (JS and Vue)
+- [x] Editorconfig
+
+## Project setup
+
+```
+npm install
+npm run serve
+```
+
+**Production build:**
+
+```
+npm run build
+```
+
+## License
+
+[LICENSE](LICENSE)
