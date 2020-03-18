@@ -1,11 +1,24 @@
 {
   "name": "vue-tailwind-starter",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "NODE_ENV=production vue-cli-service build",
+    "deploy": "git subtree push --prefix dist origin gh-pages",
     "lint": "vue-cli-service lint"
+  },
+  "engines": {
+    "node": ">=13",
+    "npm": ">=6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/james2doyle/vue-tailwind-starter.git"
+  },
+  "author": {
+    "name": "James Doyle",
+    "email": "james2doyle@gmail.com",
+    "url": "https://ohdoylerules.com/"
   },
   "dependencies": {
     "core-js": "^3.6",

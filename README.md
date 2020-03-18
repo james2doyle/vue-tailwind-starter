@@ -22,6 +22,7 @@ npm run serve
 
 ```
 npm run build
+npm run deploy
 ```
 
 ## License
