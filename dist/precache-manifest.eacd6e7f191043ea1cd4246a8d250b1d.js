@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-tailwind-starter/img/logo.6b03b6d2.png"
   },
   {
-    "revision": "40f5506541b9bcf33d29eb3f7a3b46ad",
+    "revision": "28247552417f28ae4e6c678fddc81213",
     "url": "/vue-tailwind-starter/index.html"
   },
   {
