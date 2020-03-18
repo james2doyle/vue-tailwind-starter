@@ -4,6 +4,7 @@
 
 ## Included
 
+- [x] Easy Github Pages Deployments ([Demo](https://james2doyle.github.io/vue-tailwind-starter/))
 - [x] Vue (with Router)
 - [x] Tailwind
 - [x] Postcss (purgecss, import, autoprefixer)
