@@ -30,6 +30,7 @@
     "@fullhuman/postcss-purgecss": "^2.1.0",
     "@vue/cli-plugin-babel": "^4.2",
     "@vue/cli-plugin-eslint": "^4.2",
+    "@vue/cli-plugin-pwa": "^4.2.3",
     "@vue/cli-service": "^4.2",
     "babel-eslint": "^10.0.1",
     "babel-plugin-module-resolver": "^4.0.0",
