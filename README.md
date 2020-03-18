@@ -10,6 +10,7 @@
 - [x] Postcss (purgecss, import, autoprefixer)
 - [x] Babel (with aliases)
 - [x] ESlint (JS and Vue)
+- [x] Vue PWA plugin
 - [x] Editorconfig
 
 ## Project setup
