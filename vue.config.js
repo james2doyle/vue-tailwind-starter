@@ -1,9 +1,9 @@
 // https://cli.vuejs.org/config/#configuration-reference
-const package = require('./package.json');
+const config = require('./package.json');
 
-process.env.VUE_APP_VERSION = package.version;
+process.env.VUE_APP_VERSION = config.version;
 
-const repoName = package.repository.url.match(/\/\w+\/(.*?)\.git$/i)[1];
+const repoName = config.repository.url.match(/\/\w+\/(.*?)\.git$/i)[1];
 
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production' ? `/${repoName}/` : '/',
