@@ -1,0 +1,46 @@
+{
+  "folders": [
+    {
+      "file_exclude_patterns": [
+        ".gitkeep",
+        "*.min.*",
+        "*lock*"
+      ],
+      "folder_exclude_patterns": [
+        ".nuxt",
+        "dist",
+        "node_modules"
+      ],
+      "path": "."
+    }
+  ],
+  "settings": {
+    "LSP": {
+      "lsp-tsserver": {
+        "enabled": false
+      },
+      "json": {
+        "enabled": true
+      },
+      "css-langserver": {
+        "enabled": true
+      },
+      "lsp-eslint": {
+        "enabled": true
+      },
+      "vetur": {
+        "enabled": true
+      }
+    },
+    "tab_size": 2,
+    "translate_tabs_to_spaces": true,
+    "jsdocs_return_tag": "@return"
+  },
+  "syntax_override": {
+    "\\.js$": ["TypeScript", "TypeScript"],
+    "\\.*rc$": ["JavaScript", "JSON"],
+    "\\.vue$": ["Vue Syntax Highlight", "Vue Component"],
+    "\\.pcss$": ["Syntax Highlighting for PostCSS", "Syntaxes", "PostCSS"],
+    "\\.css$": ["Syntax Highlighting for PostCSS", "Syntaxes", "PostCSS"]
+  }
+}
