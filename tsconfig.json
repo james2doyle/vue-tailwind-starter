@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "lib": [
+      "ESNext",
+      "ESNext.AsyncIterable",
+      "DOM",
+      "scripthost"
+    ],
+    "importHelpers": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "strict": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "types": [
+      "vue",
+      "@types/node",
+      "@types/lodash"
+    ],
+    "paths": {
+      "Assets/*": ["./assets/*"],
+      "Components/*": ["./components/*"]
+    }
+  },
+  "include": [
+    "**/*.js",
+    "**/*.vue"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
