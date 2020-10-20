@@ -2,7 +2,7 @@
   <div class="hello-wrapper">
     <p class="p-2" v-text="message"></p>
     <div>
-      <img src="../assets/logo.png" alt="Logo" width="50" class="mx-auto">
+      <img src="../assets/logo.png" :alt="alt" width="50" class="mx-auto">
     </div>
   </div>
 </template>
@@ -12,6 +12,7 @@ export default {
   name: 'Hello',
   data() {
     return {
+      alt: 'Logo',
       message: 'Vue + Tailwind Starter',
     };
   },

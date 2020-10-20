@@ -5,9 +5,10 @@ module.exports = {
     browser: true,
     es6: true,
   },
+  parser: 'vue-eslint-parser',
   extends: [
-    'plugin:vue/essential',
-    'eslint:recommended'
+    'eslint:recommended',
+    'plugin:vue/recommended'
   ],
   rules: {
     'array-bracket-spacing': [2, 'never'],
