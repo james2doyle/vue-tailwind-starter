@@ -74,9 +74,17 @@ module.exports = {
     }],
     'no-unused-labels': 1,
     'no-restricted-imports': 0,
+    // Vue rules:
+    'vue/require-name-property': 2,
     'vue/html-self-closing': 0,
     'vue/max-attributes-per-line': 0,
-    'vue/singleline-html-element-content-newline': 0
+    'vue/singleline-html-element-content-newline': 0,
+    'vue/no-useless-v-bind': 2,
+    'vue/no-useless-mustaches': [2, {
+      ignoreIncludesComment: false,
+      ignoreStringEscape: false,
+    }],
+    'vue/no-bare-strings-in-template': 2
   },
   parserOptions: {
     parser: 'babel-eslint'
