@@ -32,6 +32,7 @@
     "@vue/cli-plugin-eslint": "^4.5.8",
     "@vue/cli-plugin-pwa": "^4.5.8",
     "@vue/cli-service": "^4.5.8",
+    "@vue/composition-api": "^1.0.0-beta.19",
     "babel-eslint": "^10.0.1",
     "babel-plugin-module-resolver": "^4.0.0",
     "cssnano": "^4.1.10",

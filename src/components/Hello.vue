@@ -10,11 +10,11 @@
 <script>
 export default {
   name: 'Hello',
-  data() {
+  setup() {
     return {
       alt: 'Logo',
       message: 'Vue + Tailwind Starter',
     };
-  },
+  }
 };
 </script>
