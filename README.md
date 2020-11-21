@@ -4,7 +4,7 @@
 
 ## Included
 
-- [x] Easy Github Pages Deployments ([Demo](https://james2doyle.github.io/vue-tailwind-starter/))
+- [x] Easy Github Pages Deployments Via `docs` Folder ([Demo](https://james2doyle.github.io/vue-tailwind-starter/))
 - [x] Vue (with Router)
 - [x] [Vue Composition API](https://github.com/vuejs/composition-api)
 - [x] Tailwind 2
