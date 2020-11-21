@@ -85,7 +85,7 @@ module.exports = {
       ignoreIncludesComment: false,
       ignoreStringEscape: false,
     }],
-    'vue/no-bare-strings-in-template': 2
+    'vue/no-bare-strings-in-template': 0
   },
   parserOptions: {
     parser: 'babel-eslint'
