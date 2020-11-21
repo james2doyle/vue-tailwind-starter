@@ -28,7 +28,7 @@ module.exports = {
     complexity: [2, { max: 10 }],
     'computed-property-spacing': [2, 'never'],
     'no-console': [1, { allow: ['warn', 'error'] }],
-    'no-debugger': 2,
+    'no-debugger': 1,
     curly: 2,
     'eol-last': 2,
     eqeqeq: [2, 'smart'],
